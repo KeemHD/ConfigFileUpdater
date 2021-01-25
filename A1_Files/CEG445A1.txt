@@ -1,0 +1,1113 @@
+//File: CEG445A1.txt
+//Job Configurator Output Last Modified on: Thursday, January 21, 2021 08:09:10
+//Job Configurator Output Last Modified by: mleeson
+
+Elevator is Traction!   
+TOP_SPEED              =1000
+CONTRACT_SPEED         =1000
+VELOCITY_DAMPING_SAMPLE=10
+FINAL_STOP_RATE        =150
+J1                     =480
+J2                     =480
+J3                     =480
+A1                     =240
+A2                     =240
+LAG                    =5
+PULSES_PER_REV         =10000
+MOTOR_RPM              =0131
+LW_PERCENT_CWT         =50
+NUM_BRAKE_STEPS        =3
+BRAKE_ECONOMY_TIME     =15
+BRAKE_BK2_TIME         =2
+BRAKE_BK1_TIME         =2
+AMPS_BK1               =64
+AMPS_BK2               =64
+AMPS_BK3               =64
+AMPS_BKECONOMY         =32
+AMPS_RATE              =1
+AMPS_BKE_PICK          =64
+AMPS_BKE_HOLD          =32
+BRKE_TIME              =20
+BRAKEDROP_DELAY        =50
+RESCUEOP_PICK_TIME     =32
+PRIMARY_BRK_CUR_LIMIT  =80
+SECONDARY_BRK_CUR_LIMIT=80
+EMER_BRAKE_DROP_TIME   =0
+OVERLAY_SERIAL_MODE    =0
+CAPACITY               =03500
+MOTOR_ENCODER_DIRECTION=0
+BUFFER_STRIKE_SPEED    =200
+DRIVE_INTERFACE        =1
+HNB_TOP_HWAC_RISER     =0
+HNB_BOTTOM_HWAC_RISER  =0
+TOP_HOISTWAY_ACCESS_FLR=26
+FS_MAIN_LDG            =1
+FS_ALT_LDG             =1
+STOP_SWITCH_RELEVEL    =1
+FIRST_PASS             =1
+DUAL_PROCESSOR_CAN_INP =0
+DISCRETE_HWAC_RUN_INP  =0
+ABS_SAF_DIST           =01000
+
+CAR_IO_ASSIGNMENTS     =
+INCN   INCNM  INCNU  INCND  CDBM   CDBM2  HDBM   HDBM2                  END 001
+BYCST  BYHA   BYHAR  BYHAB  BYHAT  BYCDB  BYHDB  BYDZ                   END 002
+IB     IT     IF     IR     CB     CT     CF     CR                     END 003
+CDCF   CDCR   CST    SAFGR  FTSD   SAFCAR SAFRB                         END 004
+SAFMR  SAFHW  SAFPLD SAFSP  SAFC   TEMPOK NOPROG SAF3                   END 005
+MCC1   BRKC   CHKDS         FAN    STBY          FSBZ                   END 006
+MCD    BRKD   BRKM          MCM    DTOK   BSLM   BSLE                   END 007
+INRB   INRBU  INRBD                              DD                     END 008
+EBC1   EBM1                                      MTOK                   END 009
+FSX    FSM                  EPNP   EPW    TCH1   TCH2                   END 010
+                                                                        END 011
+HATU   HATUM  HATD   HATDM                                              END 012
+                            BYAPS  BYFTSD BYSG   BYCEPD                 END 013
+LVU    LVD    DZ1    DZ2    DLB    DLT    CLIP                          END 014
+INCTM  INCTE  INCTU  INCTD  INHAM                                       END 015
+LC1           LC1M   PC2M                                               END 016
+WIND   WINDI                              BCPD1M BCPD2M                 END 017
+FSE    FST                                FSI                           END 018
+                                                                        END 019
+                            BUZ    STBY                                 END 020
+FSC1   FSC2   FSRI   FSCC   DOB    DCB                                  END 021
+CLFS                                      CCIE   ISC                    END 022
+C1     C2     C3     C4     C5     C6     C7                            END 023
+C8     C9     C10    C11    C12    C13    C14                           END 024
+                                                                        END 025
+                                                                        END 026
+C15    C16    C17    C18    C19    C20    C21    C22                    END 027
+                                                                        END 028
+                                                                        END 029
+C23    C24    C25    C26                                                END 030
+                                                                        END 031
+                            DOB    DCB                                  END 032
+                                          CCIE                          END 033
+C1     C2     C3     C4     C5     C6     C7                            END 034
+C8     C9     C10    C11    C12    C13    C14                           END 035
+                                                                        END 036
+                                                                        END 037
+C15    C16    C17    C18    C19    C20    C21    C22                    END 038
+                                                                        END 039
+                                                                        END 040
+C23    C24    C25    C26                                                END 041
+FSH3   FSH4                                                             END 042
+HML    EPLDI  EPCSI                                                     END 043
+CPTR   CPF1   CPF2   CPF3   CPES   CPCTA                                END 044
+CPTA   CPIN   CPMC          CPIA                                        END 045
+CPMI1  CPCI1  CPMI2                                                     END 046
+                                                                        END 047
+                                                                        END 048
+                     ASN1                                               END 049
+FSH1   FSH2                               TCHI   TCHO                   END 050
+                     ASN2                                               END 051
+                     ASN3                                               END 052
+                     ASN4                                               END 053
+                     ASN5                                               END 054
+                     ASN6                                               END 055
+                     ASN7                                               END 056
+                     ASN8                                               END 057
+                     ASN9                                               END 058
+                     ASN10                                              END 059
+                     ASN11                                              END 060
+                     ASN12                                              END 061
+                     ASN13                                              END 062
+                     ASN14                                              END 063
+                     ASN15                                              END 064
+                     ASN16                                              END 065
+                     ASN17                                              END 066
+                     ASN18                                              END 067
+                     ASN19                                              END 068
+                     ASN20                                              END 069
+                     ASN21                                              END 070
+                     ASN22                                              END 071
+                     ASN23                                              END 072
+                     ASN24                                              END 073
+                     ASN25                                              END 074
+                     ASN26                                              END 075
+                                                        ;
+
+SPECIAL_INVERT         =
+;
+
+CAR_ID                 =8
+NUM_FLOORS             =0026
+
+FRONT_SERVED_TABLE     =
+1111111111111111
+0000001111111111
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+
+REAR_SERVED_TABLE      =
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+
+SABBATH_FRONT_FLOORS_SERVED =
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+
+SABBATH_REAR_FLOORS_SERVED =
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+
+SABBATH_FLUSH_CALLS_ON_ACTIVATE =0
+SABBATH_ALLOW_HALL_CALLS      =0
+SABBATH_TERM_LIMIT_PREF       =0
+SABBATH_DOOR_HOLD_OPEN        =0
+SABBATH_DOOR_HOLD_TIME        =8
+SABBATH_ENABLE_SECURED_FLOORS =0
+SABBATH_MAIN_FLOOR            =1
+SABBATH_MAIN_FLOOR_FRONT_REAR =0
+SABBATH_CLOSE_WARNING_BUZZER  =0
+
+//Destination Dispatch Car Info
+KIOSK_FLOORS           =
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+
+ELEVATOR_DESIGNATOR    =D4U
+
+JOB_NUMBER             =CEG445
+JOB_NAME               =50 HUDSON YARDS
+JOB_DATE               =11/25/19
+DISTRIBUTOR            =TKE HUDSON YARDS
+DISTRIBUTOR_CODE       =750
+JOB_VERSION            =001
+JOB_REVISION           =015
+JOB_EDIT_REVISION      =99
+JOB_LAST_EDITED_BY     =mleeson
+FRONT_CC_DIAG_LOCKS    =
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+REAR_CC_DIAG_LOCKS     =
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+
+TOTAL_NON_LON_PORTS    =18
+SLOWDOWN_TYPE          =3
+POSITION_TYPE          =8
+FLEVEL_TYPE            =1
+RLEVEL_TYPE            =1
+POS_COUNTS_PER_FOOT    =610
+FLANTERN_TYPE          =0
+RLANTERN_TYPE          =0
+FRONT_DOOR_TYPE        =7
+REAR_DOOR_TYPE         =0
+ASCII_PI_TABLE         =
+ 32 43 44 45 46 47 48 49 50 51 53 54 55 56 57 58
+ 59 60 61 62 63 64 65 66 67 68
+
+BuildingFloorFront     =
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+  0   0   0   0   0   0   0   0   0   0 
+
+BuildingFloorRear      =
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+  0   0   0   0   0   0   0   0   0   0 
+
+GroupFloorFront        =
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+  0   0   0   0   0   0   0   0   0   0 
+
+GroupFloorRear         =
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+  0   0   0   0   0   0   0   0   0   0 
+
+
+//Korean Specific Adjustments:
+EZ_FLOORS              =0
+STATUS1                =0
+STATUS2                =0
+STATUS3                =0
+HANDICAP_CAR_CALL_DOOR_TIME =40
+FS_LIFT_CAR_F29        =0
+PC_MONITOR_O46         =0
+IN_HOUSE_CALL_TYPE_O47 =0
+CAR_CALL_TOGGLE_O51    =0
+RESCUE_LEFT_CAR_ID_Z29 =0
+RESCUE_RIGHT_CAR_ID_Z30=0
+AnticipatedLanterns    =0
+UPK_LongDoorHoldTime   =30
+UPK_ShortDoorHoldTime  =15
+ChkSpeedAtSDswitch     =0
+Top2SpdVanePos         =0
+Bot2SpdVanePos         =0
+EZ_PI_TABLE            =
+                                                                              
+//End of Korean Specific Adjustments
+
+DIG-PI-TYPE            =10
+//The DIGITAL_PI_DRIVER_TABLE is in base 10 (decimal) format here. IMS output will be base 16 (hex)
+//ie. 8192 here = 2000 in IMS
+DIGITAL_PI_DRIVER_TABLE=
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+
+CE_FIXTURES_PROVIDED   =0
+FS_TYPE                =21
+FS_SECONDARY_SW        =1
+FLASHING_FSRI_ON_FSE   =0
+LON_CHANNEL_PORTS      = 029 028 
+EMERGENCY_POWER_TYPE   =2
+TENANT_SECURITY_TYPE   =5
+B44_TYPE               =0
+A17_TYPE               =0
+EN81_TYPE              =0
+FIRE_PHASE1_SE_OP      =1
+FIRE_PHASE2_SE_OP      =2
+FIRE_LIFT              =0
+VANCOUVER_VARIANT      =1
+NUM_DPY_CHARS          =4
+EMERG_STOP_SWITCH_TYPE =1
+ADA_TYPE               =1
+CONTROLLER_TYPE        =11
+ROPE_TYPE              =0
+UIHDLR_PASSWORD        =1b1e5e44
+CN_TRANSLATE_TABLE     =
+2 12 000 001 002 003 004 005 006 007 008 009 010 011 255 255 255 255
+2 11 012 013 014 015 016 017 018 019 020 021 022 255 255 255 255 255
+0 02 023 024 255 255 255 255 255 255 255 255 255 255 255 255 255 255
+2 04 025 026 027 028 255 255 255 255 255 255 255 255 255 255 255 255
+0 00 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255
+0 00 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255
+0 00 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255
+0 00 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255
+0 00 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255
+0 00 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255
+0 00 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255
+0 00 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255
+CN_SHARED_PORT_TABLE   =00 00 01 00 00 00 00 00 00 00 00 00 
+
+CN_SMART_NAMES         =
+0 MAINCOP1----
+1 AUXCOPA1----
+2 LOBPANA1----
+3 TWIN_CN1----
+4 ------------
+5 ------------
+6 ------------
+7 ------------
+8 ------------
+9 ------------
+10 ------------
+11 ------------
+
+HN_MASTER              =1
+SHARED_CAR_ID          =7
+NUM_FRONT_HN           =27
+FRONT_HN_FLOOR         =
+01  02  03  04  05  06  07  08  09  10  11  12  13  14  15  16  
+17  18  19  20  21  22  23  24  25  26  27  00  
+NUM_REAR_HN            =00
+REAR_HN_FLOOR          =
+00
+
+FRONT_FLOOR_TO_PORT    =
+000 001 003 004 005 006 007 008 009 010 011 012 013 014 015 016 
+017 018 019 020 021 022 023 024 025 026 027 028 
+REAR_FLOOR_TO_PORT     =
+000
+DOOR_PROFILE           =
+49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 
+m_scaler               =0
+
+NET_IPADDRESS          =c0a80018
+NET_SUBNETMASK         =ffffff00
+NET_CONFIG_TYPE        =0
+//////////////////////////////////////////////////////////////////////////
+//PromisE Information - WARNING: Do not edit the fields below this line.//
+//////////////////////////////////////////////////////////////////////////
+\\ JOB_VOLTAGE         =460
+\\ FINAL_LIMITS_Y_N    =1
+\\ DESIGNER_INITIALS   =SGM
+\\ LINE_VOLT_PHASE     =3
+\\ HWAS                =1
+\\ HWAS_TOP_LOCATION   =F
+\\ EM_POW_TYPE         =IEP
+\\ EM_POW_SW           = L
+\\ CAR_CAN_PI_QTY      =02
+\\ INSP_KEY_TYPE       =ENABLE
+\\ DRIVE_CONFIGURATION =112HP,VVVF,REGEN,460V, DUAL CPI 100R
+\\ BRAKE_TYPE          =940JE38
+\\ BRAKE_TYPE_2        =940JE82B
+\\ SECOND_VOLT         =115VAC
+\\ GREEN_DRIVE         =XX
+\\ DYNAMIC_BRAKE       =N
+\\ DOOR_OPER_TYPE      =54
+\\ SUPRA_UDO           =Y
+\\ CABINET_TYPE        =1
+\\ CE_PI_Y_N           =N
+\\ VOICE_ANNUN         =Y
+\\ HWAY_WIRING         =S
+\\ SIG_FIXT_TYPE       =TRADIT
+\\ DUCT_LABEL          =D
+\\ CARTOP_BOX          =N
+\\ TYPE_DOWNLIGHT      =NONE
+\\ CANADIAN_JOB        =N
+\\ QUATTRO_RATE        =0
+\\ SCR_LOOP            =0
+\\ SYNERGY             =0
+\\ MACHINE_LOCATION    =1
+\\ UPS                 =0
+\\ POWERVATOR          =0
+\\ REGEN_DISABLE       =N
+\\ RGR                 =0
+\\ CAD_EARLY_SHIP      =Y
+\\ REPEATER_COUNT      =00
+\\ CAR_PI_TYPE         =C
+\\ HALL_PI_TYPE        =N
+\\ LOADWEIGHER_TYPE    =C1
+\\ MRTYP               =1
+\\ CTRLTYP             =1
+\\ SLIMLINE            =N
+\\ DRVTYP              =21
+\\ SYSTYP              =2
+\\ EVO_BLUE            =0
+\\ MACHTYP             =SF6
+\\ MACHNUM             =na
+\\ HILLIARD_BRAKE      =0
+\\ MRMTYP              =0
+\\ DCTYP_VOLT          =NR
+\\ SCR_ISO_XFMR_KVA    =NA
+\\ MOTOR_BLOWER        =0
+\\ 2Q_REGEN            =N
+\\ ISOXFMR             =0
+\\ EMI_FILTER          =0
+\\ MR_PHONE            =Y
+\\ COMP_CHAIN          =N
+\\ CAR_DOOR_INTERLOCK  =N
+\\ ELEC_DOOR_RESTRICT  =N
+\\ 546AV11             =N
+\\ CIV                 =460
+\\ HOME_RUN            =0000
+\\ POE_REQD            =N
+\\ GLOBAL_KIOSK_GRPING =0
+\\ DEST_DISP_REQD      =Y
+\\ DEST_DISP_TYPE      =S
+\\ DEST_ADVANCE        =N
+\\ DEST_KIOSK_TYPE     =G
+\\ ISO_XFMR_SEC_VOLT   =460
+\\ LOBBY_PANEL         =G
+\\ 940EJ_REV           =G
+\\ 940JW_REV           =C-SP
+\\ 2102BM_REV          =CN
+\\ 940JE_REV           =AT-SP
+\\ 2110DF_REV          =BH
+\\ FU1-3_FUSE          = NR
+\\ FL1-3_FUSE          = 6A
+\\ FFAN_FUSE           = 6A
+\\ FMF1-2_FUSE         = NR
+\\ FQP1-2_FUSE         = NR
+\\ FPXR_FUSE           = NR
+\\ FRL-SL-TL_FUSE      = NR
+\\ FAC1_FUSE           = 17.5A
+\\ FD1-3_FUSE          = NR
+\\ CPI_PANEL_FUSES
+\\ FBK1-3_FUSE         = 15A
+\\ FCL1&3_FUSE         = 4A
+\\ FMB1-3_FUSE         = 5A
+\\ FCP1-2_FUSE         = 3A
+\\ FX9_FUSE            = 6A
+\\ DOOR_PANEL_FUSES
+\\ FAC1A_FUSE          =10A
+\\ FAC3_FUSE           = NR
+\\ FDBU_FUSE           = NR
+\\ FP24_FUSE           = 7A
+\\ FP24G_FUSE          = 7A
+\\ FP24GS_FUSE         = 7A
+\\ FP24TW_FUSE         = 1A
+\\ FP24GM_FUSE         = 1A
+\\ PS1_POWER           = 60W
+\\ PS3_POWER           = Y
+\\ PSC1_POWER          =120W
+\\ PSTW_POWER          = 60W
+
+
+//////////////////////////////////////////////////////////////////////////
+//GENERIC Information - WARNING: Do not edit the fields below this line.//
+//////////////////////////////////////////////////////////////////////////
+//ESB546 CEG445A1b.txt
+//CAR GENERIC DATA FILE
+EM_DISP_TYPE           =0
+RELEVEL_SPEED          =7
+VMAX_REDUCE_SPEED      =0
+VMAX_LOAD_THRESHOLD    =0
+CWT_DECEL_RATE         =0
+ADJ2_18_VALUE          =512
+DEM_THRESHOLD          =3
+ROPE_SLIP_FACTOR       =0
+HN_CAN_ID_MODE         =0
+SERV_PROT_SEC_TIMEOUT  =60
+ADJ2_26_VALUE          =0
+ADJ2_28_VALUE          =0
+ADJ2_29_VALUE          =0
+ADJ2_30_VALUE          =0
+ADJ2_31_VALUE          =20
+ADJ2_32_VALUE          =0
+ADJ2_33_VALUE          =0
+ADJ2_34_VALUE          =0
+AUTO_HESV              =0
+AUTO_HESV_TIMER        =7
+ADJ3_12_VALUE          =0
+ADJ3_15_VALUE          =180
+ADJ3_16_VALUE          =200
+ADJ3_17_VALUE          =20
+ADJ3_18_VALUE          =0
+ADJ3_19_VALUE          =0
+ADJ3_20_VALUE          =0
+ADJ3_21_VALUE          =0
+ADJ3_22_VALUE          =0
+ADJ3_23_VALUE          =15
+HOISTWAY_ACCESS_TOP_SPEED =35
+ADJ3_25_VALUE          =1
+ADJ3_26_VALUE          =600
+ADJ3_27_VALUE          =60
+ADJ3_28_VALUE          =80
+ADJ3_30_VALUE          =0
+ADJ3_31_VALUE          =0
+ADJ3_32_VALUE          =150
+ADJ3_33_VALUE          =3
+ADJ3_34_VALUE          =0
+ADJ3_35_VALUE          =0
+NVRsrvd.CheckCode      =23698
+NVRsrvd.StatusCode     =0
+MaininitData1.LastTag  =110
+MaininitData2.fInited  =1
+NVUploadedData.fUpLoadCplt =1
+
+//REAL TIME DATA STORED BY CONTROLLER
+//AN89Ph2Data
+AN89Ph2Data.State      =0
+AN89Ph2Data.Recalling  =0
+AN89Ph2Data.FDoorPos   =0
+AN89Ph2Data.RDoorPos   =0
+DorDiscData.fActivate  =1
+
+// Selector Structure #2 - Normal Limit Switch Positions
+SelectorData2.DlbPosRef=0
+SelectorData2.DltPosRef=0
+
+//counterweight zone data
+SELECTOR_CWTOP         =1
+SELECTOR_CWBOTTOM      =1
+CAR_LINK_ADDRESS       =0
+FLASHER_RATE           =0.5
+LOBBY_FLOOR            =1
+
+//Traction SCurve
+LEVELING_SPEED         =2
+FLOORHUNT_SPEED        =40
+GAIN                   =120
+DIGITAL_TARGET_OFFSET  =32
+START_DELAY            =5
+PRETORQUERECAL_DELAY   =13
+
+//DriveDriver
+PRETORQUE_DELAY        =5
+
+//Motor Encoder
+UNSAFE_MOTOR_ROTATION  =5
+
+//LWRecal PreTorque
+LW_PRETORQUE_ENABLE    =1
+
+//loadweigher jewels
+LW_JEWEL_PERCENT       =60
+LW_ANTINUIS_POUNDS     =0
+LW_BYPASS_PERCENT      =80
+LW_OVERLOAD_PERCENT    =125
+LW_DISPATCH_PERCENT    =40
+LW_EMPWRLOADED_PERCENT =50
+LW_ROPE_TENSION_DEVICE_M90 =1
+
+//SafetyCheck
+ETN                    =255
+TRK                    =50
+OSP                    =20
+VEE                    =60
+TFT                    =1
+
+//Traction Brake
+NUM_RUN_ON_BAD_FILTER_B47 =3
+NUM_RUN_ON_LINING_WEAR_B48 =3
+BRKE_HOLD_1CON_TIME_B49 =0
+
+//InspHwAcData
+INSPECTION_VELOCITY    =50
+BOTTOM_HOISTWAY_ACCESS_ZONE =140
+TOP_HOISTWAY_ACCESS_ZONE =100
+TEMP_OP                =0
+
+//LanternData
+LANTERN_ON_TIME        =4
+LANTERN_OFF_TIME       =4
+
+CAR_LANTERN_AT_LBY     =1
+CAR_LANTERN_AT_DRL     =0
+
+LATERN_FIRING_POSITION =0
+LATERN_LOBBY_DELAY     =3
+
+ARROW_TYPE             =1
+PI_TIMEOUT_TIME        =0
+HALL_NUM_DPY_CHARS_X28 =0
+
+FAN_LIGHT_TIMER_VALUE  =300
+
+AUDIBLE_CAR_CALLS      =0
+
+//AN89Ph1Data
+FS_MAIN_LDG_DOOR       =0
+FS_ALT_LDG_DOOR        =0
+FS_OVERRIDE_TIME       =30
+FS_SENSOR_STATUS       =0
+FS_SWITCH_STATUS       =0
+FS_RETURN_LDG          =1
+FS_OVERRIDE_TIMEOUT    =0
+FS_DOOR_TIME           =100
+FS_PH2_INHIBIT_FDOOR_F34 =0
+FS_PH1_OVERRIDE_CAPT_DISABLE_F35 =0
+FS_PH1_OVERRIDE_RCS_F39 =0
+
+// ***** Begin Lon parameters *****
+// Channel 1  car stations; // Channel 2 hall stations
+
+//EPwrData
+EMERGENCY_POWER_DOOR_TO_OPEN =0
+EMERGENCY_POWER_RETURN_FLOOR =1
+EMERGENCY_POWER_MANUAL_SELECT_TIME =300
+
+//IndSvcData
+HALL_INDEPENDENT_SERVICE_RETURN_FLOOR =1
+HALL_INDEPENDENT_SERVICE_DOOR_TO_OPEN =0
+
+//MassMedData
+MASSACHUSETTS_MEDICAL_RETURN_FLOOR =1
+MASSACHUSETTS_MEDICAL_DOOR_TO_OPEN =0
+MASSACHUSETTS_MEDICAL_CAR_STATE_LATCH =0
+
+REAR_LEVELING_VANE     =0
+VALID_SETUP            =0
+CLOSE_FLR              =
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+
+REAR_LEVELING          =
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+
+EXPRESS_ZONE           =
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+
+
+LONG_TERMINAL_SLOWDOWN =0
+ENC_UP_SLOWDOWN_DIST   =1536
+ENC_DN_SLOWDOWN_DIST   =1536
+ENC_LEVEL_DIST         =21
+RECAL_WINDOW           =90
+ENC_LEVELING           =1
+
+//DoorData
+LIMITED_DOOR_REVERSAL_TYPE =0
+NUDGING_ENABLE         =1
+DOOR_REVERSAL_TIME     =30
+ELECTRIC_EYE_DOOR_TIME =10
+SAFETY_EDGE_DOOR_TIME  =10
+DOOR_OPEN_BUTTON_DOOR_TIME =20
+DOOR_HOLD_BUTTON_DOOR_TIME =10
+OPEN_HIGH_SPEED_TIME   =4
+FRONT_DOOR_WATCHDOG_TIME =200
+REAR_DOOR_WATCHDOG_TIME=200
+NUDGING_DOOR_TIME      =45
+MTO_DOOR_TIME_D39      =8
+ADA_DOOR_NUDGE_SPEED_ENABLE_D40 =0
+DETECT_STUCK_DOOR_OPEN_DISABLE_D43 =0
+NO_DOUBLE_DOOR_OP_D44  =0
+EXTENDED_DOOR_TIME_LANDING_2_D45 =0
+EXTENDED_DOOR_TIME_LANDING_3_D46 =0
+WITTER_DOOR_KEEPER_TIMEOUT_D47 =0
+DOOR_HOLD_SW_STAY_IN_GROUP_D48 =0
+DOOR_HOLD_BUZZ_TIME_D49=0
+
+//AutoData
+CAR_CALL_DOOR_TIME     =30
+HALL_CALL_DOOR_TIME    =50
+ADA_HALL_CALL_DOOR_TIME=50
+TRANSFER_WHILE_DOORS_CLOSING =1
+
+//HomeShDnData
+FIRST_CAR_HOMIMG_RETURN_FLOOR =1
+FIRST_CAR_HOMIMG_DOOR_TO_OPEN =0
+SECOND_CAR_HOMIMG_RETURN_FLOOR =2
+SECOND_CAR_HOMIMG_DOOR_TO_OPEN =0
+THIRD_CAR_HOMIMG_RETURN_FLOOR =2
+THIRD_CAR_HOMIMG_DOOR_TO_OPEN =0
+CAR_HOMING_DOOR_TIME   =150
+SHUNT_TRIP_TIME_H22    =60
+WATER_SENSOR_OVERRIDE_FS_H23 =1
+
+//AntiNuisData
+NUMBER_OF_ANTI-NUISANCE_CALLS =3
+
+//MDArbData
+IND_OVERRIDES_LOCKOUTS =1
+
+//RunData
+RESTART_DELAY          =2
+
+//Gong at Ldg
+BUZZER_ON_GAL          =1
+GAL_TONE_TIMER         =3
+
+//Lobby Recall
+LOBBY_RECALL_RET_LDG   =1
+LOBBY_RECALL_DOOR      =0
+
+//Tenant Security
+SEC_RETURN_LDG         =1
+SEC_RETURN_DOOR        =0
+SEC_ALLOW_DOB          =0
+SEC_ONE_CC_AT_A_TIME   =0
+SEC_HOMING_DELAY       =30
+SEC_DOOR_TIME          =50
+SEC_EXIT_NOT_REQUIRED  =0
+SEC_HOME_BETWEEN_CALLS =0
+SEC_PROG_A_LOCKOUTS    =0
+SEC_PROG_A_OVERRIDES   =0
+SEC_PROG_A_HOME_ON_INIT=1
+SEC_PROG_A_CAR_SHUTS_DOWN =0
+SEC_PROG_A_EMERG_DISP_TO_UNSECURED =1
+SEC_PROG_A_IND_SVC_OVERRIDES =0
+SEC_PROG_A_IND_SVC_ACT_OVRD_OUTPUT =0
+SEC_PROG_A_IR_OVERRIDES=0
+SEC_PROG_A_LANTS_ON_HALL_CALLS =0
+SEC_PROG_B_LOCKOUTS    =0
+SEC_PROG_B_OVERRIDES   =0
+SEC_PROG_B_HOME_ON_INIT=1
+SEC_PROG_B_CAR_SHUTS_DOWN =0
+SEC_PROG_B_EMERG_DISP_TO_UNSECURED =1
+SEC_PROG_B_IND_SVC_OVERRIDES =0
+SEC_PROG_B_IND_SVC_ACT_OVRD_OUTPUT =0
+SEC_PROG_B_IR_OVERRIDES=0
+SEC_PROG_B_LANTS_ON_HALL_CALLS =0
+SEC_PROG_A_CAR_AVAIL_DELAY =5
+SEC_PROG_B_CAR_AVAIL_DELAY =5
+SEC_OVERRIDE_REG_CAR_CALL =0
+NEONATAL_LDGA          =0
+NEONATAL_LDGB          =0
+NEONATAL_LDGC_S50      =0
+NEONATAL_LDGD_S51      =0
+ALLOW_DOOR_WD_SECURITY_S55 =0
+
+SEC_SUBSET_A_FRONT     =
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+
+SEC_SUBSET_A_REAR      =
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+
+SEC_SUBSET_B_FRONT     =
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+
+SEC_SUBSET_B_REAR      =
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+NON_INT_TIME           =10
+STUCK_TIMER            =300
+
+//Coded Car Call
+CODE_ENTRY_TIME        =0
+CODE_ENTRY_COUNT       =4
+BUZZER_ON_CODE         =1
+CODE_BUZZER_TIME       =4
+
+//Code Blue
+CODE_BLUE_OVERRIDE_NEO_NTL_C29 =0
+CODE_BLUE_NOT_AVAILIBLE_C30 =0
+CODE_BLUE_ANTICIPATED_LANTERNS_C31 =0
+EXTENDED_AUTO_HESV_TIME_FLOOR_C32 =0
+EXTENDED_AUTO_HESV_TIMEOUT_C33 =0
+CODE_BLUE_OVERRIDE_PH1_ENABLE_C34 =0
+CODE_BLUE_OVERRIDE_PH1_TIMER_ENABLE_C35 =0
+CODE_BLUE_OVERRIDE_PH1_TIME_C36 =180
+
+//Vip
+VIP_RETURN_TO_GROUP_V27=0
+VIP_AUTO_ISC_V28       =0
+VIP_BLOCK_RETURN_CALLS_V29 =0
+VIP_DESTINATION_DOOR_TIME_V31 =0
+
+//Inconspicuous Riser
+IR_MONITOR             =0
+IR_ACTIVE_NO_HCP       =0
+IR_ACTIVE_NO_COMM      =0
+IR_INACTIVE_ON_EP      =0
+IR_INACTIVE_ON_UPK     =0
+IR_INACTIVE_ON_DPK     =0
+IR_NO_FRONT_CALLS      =0
+IR_NO_REAR_CALLS       =0
+IR_NO_LANT_ON_CAR_CALLS=0
+IR_NO_LANT_AT_FRONT_GROUP_LDGS =0
+IR_NO_LANT_AT_REAR_GROUP_LDGS =0
+IR_INACTIVE_ON_CB      =0
+IR_IND_SVC_IR_CALLS    =0
+IR_IND_SVC_GRP_CALLS   =0
+IR_GRP_CALLS_IN_GRP    =0
+IR_ACTIVE_ON_ATT       =0
+IR_DEACTIVATION_TIME   =5
+IR_ACTIVATES_PROGRAM_B =0
+IR_DEACTIVATES_SECURITY=0
+IR_GROUP_CALLS_BEFORE_IR =0
+IR_CALLS_BEFORE_GROUP  =0
+
+//Information
+IMS_LOG_INHIBIT_DURING_INSP_I10 =0
+IMS_OFFICE_SINGLE_I11  =0
+IMS_OWNER_SINGLE_I12   =0
+REMOTE_STUCK_TIMER_1   =5
+REMOTE_STUCK_TIMER_2   =5
+REMOTE_CAR_STOP_TIMER  =600
+REMOTE_INDEPENDENT_TIMER =900
+REMOTE_EVENT_ACTIVATE  =1
+REMOTE_SERVICE_COUNT   =20
+REMOTE_LEVEL_TIME      =150
+REMOTE_DOOR_DRAG_TIME  =100
+
+//Capture
+CAPTURE_FLOOR          =1
+CAPTURE_DOOR2OPEN      =0
+CAPTURE_DOOR_OP        =0
+CAPTURE_OVERRIDE_STOP_SW =0
+CAPTURE_OVERRIDE_TYPE  =0
+
+//AutoData2
+AUTO_EXT_DOOR_TIME     =30
+AUTO_EXT_DOOR_LDG      =1
+AUTO_EXT_DOOR_ENABLED  =0
+AUTO_WIND_SPD          =50
+AUTO_PH2SPD            =0
+EP_DOORS               =0
+
+//THIS IS THE GENERIC ADJUSTMENT TAG
+REMOTE_CAR_STATION_DOORS =0
+DISABLE_DISPATCH       =0
+LOBBY_STOP_LDG         =2
+IND_SV_LATCH           =2
+VIP_SERVICE            =0
+VISTA_SERVICE_DAYS     =7
+DOOR_TIME_SAVER        =0
+MAC_DC_DOORS           =0
+B44_NUDGING            =0
+DOOR_PRE_OPENING       =0
+ATT_CAR_STAT_ANNUM     =0
+GET_PH2_RTN_DOOR_SPD   =0
+GET_ATT_CALL_LATCH_BF_DCL =0
+GET_REV_CAR_CALL_CANCEL=0
+ADJ26_VALUE            =0
+ADJ27_VALUE            =0
+ADJ28_VALUE            =0
+ADJ29_VALUE            =0
+ADJ30_VALUE            =0
+ADJ31_VALUE            =6
+ADJ32_VALUE            =0
+ADJ33_VALUE            =300
+ADJ34_VALUE            =300
+//HOISTWAY SCAN INFO: 
+HW_ValidSetup          =0
+HW_UpLevRef            =
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+HW_FlrCntDisp          =0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+//LOADWARE INFO: 
+PTQ_Ioo_valid          =0
+PTQ_SIo_valid          =0
+PTQ_SI_valid           =0
+PTQ_state              =0
+PTQ_Ioo                =0
+PTQ_SIo                =0
+PTQ_SI                 =0
+
+LW_Loo_valid           =0
+LW_SLo_valid           =0
+LW_SL_valid            =0
+LW_state               =0
+LW_Loo                 =0
+LW_SLo                 =0
+LW_SL                  =0
+
+//NETMNGRNVSTRUCT INFO: 
+CH_A_szFriendlyName    =
+                                                                  
+                                                                  
+                                                                  
+                                                                  
+                                                                  
+                                                                  
+
+CH_B_szFriendlyName    =
+                                                                  
+                                                                  
+                                                                  
+                                                                  
+                                                                  
+                                                                  
+
+CH_A_uType             =
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+CH_A_uSubnet           =
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+CH_A_uNode             =
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+CH_A_uGroup            =
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+CH_B_uType             =
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+CH_B_uSubnet           =
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+CH_B_uNode             =
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+CH_B_uGroup            =
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+CH_A_uNeuronId         =
+00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  
+00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  
+00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  
+00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  
+00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  
+00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  
+
+CH_B_uNeuronId         =
+00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  
+00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  
+00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  
+00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  
+00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  
+00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  00 00 00 00 00 00  
+
+CH_A_uNextNode         =0
+CH_A_uNextGroup        =0
+CH_B_uNextNode         =0
+CH_B_uNextGroup        =0
+
+STANDBY_CAR_DELAY_SEC  =0
+LC1_DELAY_SEC          =5
+CLIP_OFFSET_ABOVE_DPP  =50
+CLIP_OFFSET_BELOW_DPP  =50
+BLDG_COMPRESSION_ENABLE=0
+NTSD_MARGIN            =40
+NTSD_JERK_ENABLE       =0
+NTSD_SPLANE            =0
+ETSX_MARGIN            =30
+NTSD_MARGIN_REDUCE_PREF_P32 =40
+CAN_RTM_SHUTDOWN_MODE_M101 =0
+CPI_FAN_RUN_TIME_M102  =2
+FSGE_M103              =15
+FSGE_TRIGGER_M104      =0
+NUM_LOOK_AHEAD_M105    =7
+REGEN_DISABLE_EPNP_E57 =0
+MOTOR_TYPE_M109        =0
+OVERLAY_LEGACY_GROUP   =0
+OVERLAY_LEGACY_CAR     =0
+OVERLAY_FRONT_DOB_IO_BIT =0
+OVERLAY_REAR_DOB_IO_BIT=0
+DRIVE_TYPE             =1
+
+//AbsIoeEncoderStruct
+ABS_IOE_ENCODER_BASECOUNT =0
+ABS_IOE_ENCODER_COMPADJ=
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+
+//JobInfo
+METRIC_UNITS_J26       =0
+USER_LANGUAGE_J27      =0
+BRAKE_DECEL_RATE_J28   =1800
+HOLD_CALL_TIME_J30     =30
+REDUCE_TWIN_FLOOR_J31  =0
+DIST_BETWEEN_POS_SENSORS_J32 =3000
+TWIN_PARTNER_ID_J33    =1
+SHAFT_NUMBER_J34       =1
+CAR_TYPE_J36           =1
+IO_HW_CONFIG_J37       =0
+
+//Motion
+START_ON_HDIF_M56      =0
+FINAL_APPROACH_MODE_M58=1
+JERK_TO_STOP_RATE_M59  =200
+JERK_TO_FLOOR_FILTER_M65 =0
+FINAL_STOP_MODE_M67    =0
+LIMIT_TOP_SPEED_1_M68  =0
+REDUCED_SPEED_RATE_M69 =0
+LANDING_TIMER_MINUTE_M79 =15
+AUTO_ON_SEIS_CWD_M83   =0
+LIMIT_TOP_SPEED_2_M106 =0
+LW_RATED_DRIVE_LOAD_M107 =0
+LW_DRIVE_RATED_PERCENT_M108 =100
+
+// Options #1
+IN_HOUSE_CALL_TYPE_O47 =0
+OVER_TEMP_MON_INHIBITOR_O50 =0
+CAR_CALL_TOGGLE_O51    =0
+MTO_LANDING_O57        =1
+MTO_DOOR_TO_OPEN_O58   =0
+MTO_RECALL_DELAY_O59   =0
+NUM_CALLS_LW_BYPASS_O64=0
+HWAC_TOP_HN_ID_O72     =0
+UPS_LOW_BATTERY_CAPACITY_O73 =30
+CAR_ALT_LOCKDOWN_FLOOR_O74 =0
+LOCKDOWN_SAFE_FLOOR_O75 =0
+MOVING_ROOM_ISC_ENABLE_O78 =0
+MOVING_ROOM_ISC_FLOOR_O79 =1
+MOVING_ROOM_ISC_SIDE_O80 =1
+
+//Options #2
+TOP_OF_ZONE_1_Z47      =0
+TOP_OF_ZONE_2_Z48      =0
+DISABLE_CONSTANT_PRESSURE_Z49 =0
+RESIDENT_MODE_Z50      =0
+MULTI_RESIDENT_MODE_TIMER_Z51 =0
+SWING_GROUP_Z52        =0
+EXPRESS_ZONE_FLR_Z53   =0
+EXPRESS_ZONE_POS_Z54   =0
+LOBBY_STOP_DIR_Z55     =0
+
+//Position System
+VANE_GAP_DPP_P23       =0
+VANE_LENGTH_DPP_P24    =0
+NTSD_MANUALLY_SET_P29  =0
+
+//Fixture
+SIGNAGE_OP_FRONT_X29   =0
+SIGNAGE_OP_REAR_X30    =0
+LOBBY_PANEL_PRESENT_X38=0
+
+EOL_SERIAL_NUMBER       =0 0 0 0 0 0 
+EOL_DATE_TIME_RESET    =0
+EOL_TIME               =0
+EOL_TRIPS              =0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+EOL_TOTAL_TIME_OFF     =0
+EOL_TOTAL_RESETS       =0
+EOL_BELT_MFG_DATE      =0
+EOL_BELT_SHELF_LIFE_DAYS=0
+EOL_CHECKSUM           =0
+
+//End of File: CEG445A1.txt
